@@ -19,7 +19,7 @@ import static co.com.client.webproject.test.helpers.Dictionary.MESSAGE_ALERT_NO_
 import static co.com.client.webproject.test.helpers.Dictionary.MESSAGE_CONFIRME_ORDER;
 
 public class AgregarCompraCarritoStepsDefinition extends Setup{
-   /* private WebAction webAction;
+    private WebAction webAction;
 
     @Before
     public void setup(Scenario scenario){
@@ -162,5 +162,5 @@ public class AgregarCompraCarritoStepsDefinition extends Setup{
                 .concat(testInfo.getScenarioName()));
     }
 
-*/
+
 }
