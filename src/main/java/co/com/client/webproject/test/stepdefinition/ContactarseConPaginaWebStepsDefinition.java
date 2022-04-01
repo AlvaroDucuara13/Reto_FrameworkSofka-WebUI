@@ -18,7 +18,7 @@ import static co.com.client.webproject.test.helpers.Dictionary.MESSAGE_VALIDATIO
 
 public class ContactarseConPaginaWebStepsDefinition extends Setup{
 
-    /*private WebAction webAction;
+    private WebAction webAction;
 
     @Before
     public void setup(Scenario scenario){
@@ -113,6 +113,6 @@ public class ContactarseConPaginaWebStepsDefinition extends Setup{
                 .concat(testInfo.getFeatureName())
                 .concat("-")
                 .concat(testInfo.getScenarioName()));
-    }*/
+    }
 
 }
