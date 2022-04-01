@@ -20,7 +20,7 @@ public class AgregarCarritoAssertNoExitosoController {
             TermsNoAccept = webAction.getText(carritoPage.getMessageAlertTermsService(), 5, true);
 
         } catch (WebActionsException e) {
-            Report.reportFailure("Ocurrio un error al intentar validar la creación de un cuenta.", e);
+            Report.reportFailure("Ocurrio un error al intentar validar la compra del producto.", e);
         }
 
         return TermsNoAccept;
